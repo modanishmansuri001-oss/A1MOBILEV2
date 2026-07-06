@@ -221,3 +221,35 @@ body{
     font-size:14px;
 }
 
+/* ===== HEADER LOGO ===== */
+
+#logoArea{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#logoText{
+    margin:0;
+    font-size:34px;
+    font-weight:900;
+    line-height:1;
+    color:#111;
+}
+
+.blueText{
+    color:#1e5bff;
+}
+
+#poweredText{
+    margin-top:6px;
+    font-size:13px;
+    color:#666;
+    font-weight:500;
+}
+
+#poweredText span{
+    color:#1e5bff;
+    font-weight:700;
+}
+
