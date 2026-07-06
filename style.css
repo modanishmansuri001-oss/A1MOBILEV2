@@ -320,3 +320,32 @@ body{
     color:#666;
     line-height:1.5;
 }
+
+/* Mobile Responsive */
+
+@media (max-width:768px){
+
+    #featuresSection{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+        padding:20px;
+    }
+
+    .featureCard{
+        padding:18px 12px;
+        border-radius:18px;
+    }
+
+    .featureIcon{
+        font-size:34px;
+    }
+
+    .featureCard h3{
+        font-size:16px;
+    }
+
+    .featureCard p{
+        font-size:13px;
+    }
+
+}
