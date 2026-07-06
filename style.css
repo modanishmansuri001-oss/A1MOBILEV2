@@ -181,12 +181,13 @@ body{
 }
 
 #heroContent p{
-    max-width:260px;
-    margin:0 auto;
-    color:#4b5563;
-    font-size:13px;
-    line-height:20px;
-    font-weight:500;
+    max-width:310px;
+    margin:0 auto 18px;
+    color:#555;
+    font-size:17px;
+    line-height:1.55;
+    font-weight:400;
+   text-align: center;
 }
 
 #heroImage{
