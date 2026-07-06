@@ -349,3 +349,38 @@ body{
     }
 
 }
+/* =========================
+   TRUSTED SECTION
+========================= */
+
+#trustedSection{
+    padding:50px 20px;
+    text-align:center;
+    background:#ffffff;
+}
+
+#trustedIcon{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+#trustedSection h2{
+    font-size:32px;
+    font-weight:800;
+    color:#111;
+    margin-bottom:12px;
+}
+
+#trustedSection p{
+    max-width:340px;
+    margin:0 auto 35px;
+    font-size:16px;
+    line-height:28px;
+    color:#6b7280;
+}
+
+#trustedStats{
+    display:flex;
+    gap:18px;
+    justify-content:center;
+}
