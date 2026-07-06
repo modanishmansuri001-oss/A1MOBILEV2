@@ -33,11 +33,13 @@ body{
 
     text-align:center;
 
-    padding:10px 15px;
+    padding:7px 10px;
 
     font-size:13px;
 
     font-weight:500;
+   
+    min-height: 36px;
 
 }
 
