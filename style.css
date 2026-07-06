@@ -144,9 +144,9 @@ body{
 
     position:absolute;
 
-    width:420px;
+    width:340px;
 
-    height:420px;
+    height:340px;
 
     border-radius:50%;
 
@@ -171,10 +171,12 @@ body{
 }
 
 #heroContent h2{
-    font-size:56px;
+    font-size:46px;
     font-weight:800;
     line-height:1;
     margin-bottom:14px;
+   white-space:nowrap;
+   font-size:46px;
 }
 
 #heroContent h3{
