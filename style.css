@@ -163,28 +163,28 @@ body{
 }
 
 #heroContent h2{
-    font-size:42px;
+    font-size:40px;
     font-weight:800;
-    line-height:0.95;
-    margin-bottom:8px;
+    line-height:1;
+    margin-bottom:10px;
    white-space:nowrap;
    font-size:46px;
    letter-spacing:-1px;
 }
 
 #heroContent h3{
-    font-size:21px;
+    font-size:18px;
     font-weight:700;
-    margin-bottom:14px;
+    margin-bottom:18px;
     line-height:1.2;
 }
 
 #heroContent p{
-    max-width:290px;
+    max-width:260px;
     margin:0 auto;
     color:#4b5563;
-    font-size:14px;
-    line-height:22px;
+    font-size:13px;
+    line-height:20px;
     font-weight:500;
 }
 
@@ -200,8 +200,8 @@ body{
 }
 
 #heroImage img{
-    width:74%;
-    max-width:255px;
+    width:72%;
+    max-width:245px;
     display:block;
     margin:0 auto;
    position: relative;
@@ -231,7 +231,7 @@ body{
 
 #actionSection{
 
-    padding:25px 20px 35px;
+    padding:6px 20px 18px;
 
     display:flex;
 
