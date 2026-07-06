@@ -281,3 +281,42 @@ body{
     font-weight:700;
 
 }
+
+/* FEATURES SECTION */
+
+#featuresSection{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    padding:25px;
+}
+
+.featureCard{
+    background:#fff;
+    border-radius:20px;
+    padding:22px 15px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.featureCard:hover{
+    transform:translateY(-5px);
+}
+
+.featureIcon{
+    font-size:38px;
+    margin-bottom:12px;
+}
+
+.featureCard h3{
+    font-size:18px;
+    color:#111;
+    margin-bottom:8px;
+}
+
+.featureCard p{
+    font-size:14px;
+    color:#666;
+    line-height:1.5;
+}
