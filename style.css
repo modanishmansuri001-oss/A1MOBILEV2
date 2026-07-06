@@ -197,14 +197,14 @@ body{
 
     z-index:2;
 
-    margin-top:15px;
-   margin-bottom:10px;
+    margin-top:8px;
+   margin-bottom:-10px;
 
 }
 
 #heroImage img{
     width:100%;
-    max-width:380px;
+    max-width:310px;
     display:block;
     margin:0 auto;
    position: relative;
