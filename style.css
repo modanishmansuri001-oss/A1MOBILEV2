@@ -152,7 +152,7 @@ body{
 
     background:rgba(37,99,235,.12);
 
-    top:40px;
+    top:90px;
 
     left:50%;
 
@@ -200,12 +200,12 @@ body{
 
     z-index:2;
 
-    margin-top:8px;
+    margin-top:0px;
 
 }
 
 #heroImage img{
-    width:320px;
+    width:300px;
     max-width:100%;
     display:block;
     margin:0 auto;
