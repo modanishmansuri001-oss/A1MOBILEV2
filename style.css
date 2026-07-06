@@ -46,23 +46,23 @@ body{
 =========================== */
 
 #mainHeader{
-    height:65px;
-    background:#ffffff;
     display:flex;
+    justify-content:space-between;
     align-items:center;
-    justify-content:center;
-    position:relative;
-    border-bottom:1px solid #e5e7eb;
+    background:#fff;
+    padding:18px 24px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 #menuButton{
-    position:absolute;
-    left:18px;
-    border:none;
     background:none;
-    font-size:28px;
+    border:none;
+    font-size:34px;
+    color:#111;
     cursor:pointer;
-    color:#1f2937;
 }
 
 #logoText{
