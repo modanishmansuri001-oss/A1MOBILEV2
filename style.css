@@ -183,7 +183,7 @@ body{
 
 #heroContent p{
     max-width:310px;
-    margin:0 auto 18px;
+    margin:0 auto 8px;
     color:#555;
     font-size:17px;
     line-height:1.55;
@@ -204,7 +204,7 @@ body{
 
 #heroImage img{
     width:100%;
-    max-width:310px;
+    max-width:330px;
     display:block;
     margin:0 auto;
    position: relative;
