@@ -1,1 +1,28 @@
 
+/* ==========================================
+   SCROLL REVEAL
+========================================== */
+
+const reveals = document.querySelectorAll(".reveal");
+
+function revealSections(){
+
+    const windowHeight = window.innerHeight;
+
+    reveals.forEach(section=>{
+
+        const top = section.getBoundingClientRect().top;
+
+        if(top < windowHeight - 80){
+
+            section.classList.add("active");
+
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll", revealSections);
+
+window.addEventListener("load", revealSections);
