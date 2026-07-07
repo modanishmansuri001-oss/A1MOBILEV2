@@ -26,3 +26,23 @@ function revealSections(){
 window.addEventListener("scroll", revealSections);
 
 window.addEventListener("load", revealSections);
+
+/* ==========================================
+   STAGGER ANIMATION
+========================================== */
+
+const staggerItems=document.querySelectorAll(".stagger");
+
+window.addEventListener("load",()=>{
+
+    staggerItems.forEach((item,index)=>{
+
+        setTimeout(()=>{
+
+            item.classList.add("show");
+
+        },index*180);
+
+    });
+
+});
