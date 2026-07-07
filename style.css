@@ -364,19 +364,19 @@ margin-bottom:10px;
 
 #trustedSection{
     padding:8px 18px 20px;
-   margin-top:40px;
+   margin-top:20px;
     text-align:center;
     background:#fff;
 }
 
 #trustedIcon{
-    font-size:35px;
+    font-size:15px;
     margin-bottom:4px;
    margin-top:-15px
 }
 
 #trustedSection h2{
-    font-size:25px;
+    font-size:10px;
     font-weight:800;
     color:#111;
     margin-bottom:8px;
@@ -386,7 +386,7 @@ margin-bottom:10px;
 #trustedSection p{
     max-width:300px;
     margin:0 auto 18px;
-    font-size:15px;
+    font-size:7px;
     line-height:1.45;
     color:#666;
 }
