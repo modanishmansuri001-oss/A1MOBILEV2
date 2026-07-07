@@ -197,8 +197,8 @@ body{
 
     z-index:2;
 
-    margin-top:-29px;
-   margin-bottom:5px;
+    margin-top:10px;
+   margin-bottom:10px;
 
 }
 
@@ -235,17 +235,17 @@ body{
 
 #actionSection{
 
-    padding:1px 20px 18px;
+    padding:10px 20px 18px;
 
     display:flex;
 
-   margin-top:-40px;
+   margin-top:0px;
    
    padding-top:0;
 
     flex-direction:column;
 
-    gap:15px;
+    gap:12px;
 
 }
 
@@ -525,15 +525,6 @@ margin-bottom:10px;
 
 }
 /* version 2 */
-
-/* ==========================
-   COMPACT PROFESSIONAL UI
-========================== */
-
-#actionSection{
-    padding:12px 20px 18px !important;
-    gap:12px !important;
-}
 
 /* ==========================
    HERO IMAGE BLEND EFFECT
