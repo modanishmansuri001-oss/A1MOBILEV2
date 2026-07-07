@@ -129,10 +129,6 @@ body{
 
     padding:22px 18px 0px;
 
-     padding-top:28px;
-
-    padding-bottom:10px;
-
     text-align:center;
 
     overflow:hidden;
@@ -152,7 +148,7 @@ body{
     transform:translateX(-50%);
    opacity:.18;
     z-index:1;
-   dispay:none;
+   display:none;
 }
 
 #heroContent{
@@ -164,7 +160,6 @@ body{
 }
 
 #heroContent h2{
-    font-size:30px;
     font-weight:800;
     line-height:1;
     margin-bottom:2px;
@@ -183,7 +178,7 @@ body{
 
 #heroContent p{
     max-width:310px;
-    margin:-5 auto -10px;
+    margin:0 auto 8px;
     color:#555;
     font-size:17px;
     line-height:1.15;
@@ -197,8 +192,8 @@ body{
 
     z-index:2;
 
-    margin-top:0px;
-   margin-bottom:3px;
+    margin-top:-8px;
+   margin-bottom:0px;
 
 }
 
@@ -243,7 +238,7 @@ body{
 
    z-index: 10;
 
-   margin-top:-35px;
+   margin-top:-25px;
    
    padding-top:0;
 
@@ -300,8 +295,7 @@ margin-bottom:10px;
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:0;
-   margin-top:-15px 16px 0;
-    margin:2px 16px 0;
+    margin:8px 16px 0;
     background:#fff;
     border-radius:18px;
     overflow:hidden;
@@ -525,25 +519,4 @@ margin-bottom:10px;
     font-size:30px;
 }
 
-}
-/* version 2 */
-
-/* ==========================
-   HERO IMAGE BLEND EFFECT
-========================== */
-
-#heroSection{
-    background:
-    radial-gradient(circle at top center, rgba(37,99,235,.12) 0%, rgba(37,99,235,.04) 35%, transparent 70%),
-    linear-gradient(180deg,#eef5ff 0%,#ffffff 100%);
-}
-
-#heroImage{
-    position:relative;
-}
-
-#heroImage img{
-    display:block;
-    mix-blend-mode:multiply;
-    filter:drop-shadow(0 20px 40px rgba(37,99,235,.15));
 }
