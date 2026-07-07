@@ -774,3 +774,53 @@ margin-bottom:10px;
 /* ===================================================== */
 /* ================ HOME PAGE CSS END =================== */
 /* ===================================================== */
+
+
+/* ===================================================== */
+/* ================ LOGIN PAGE CSS START =============== */
+/* ===================================================== */
+
+#loginPage{
+    min-height:100vh;
+    background:#eef4ff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    overflow:hidden;
+}
+#loginHero{
+    width:100%;
+    min-height:260px;
+    position:relative;
+    background:linear-gradient(180deg,#07173d 0%,#0a2f7d 100%);
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+    padding:30px 20px;
+}
+#loginHeroOverlay{
+    position:absolute;
+    inset:0;
+    background:
+    radial-gradient(circle at top,#2b73ff33,transparent 45%),
+    radial-gradient(circle at left,#3d7eff22,transparent 35%),
+    radial-gradient(circle at right,#6aa7ff22,transparent 35%);
+}
+#loginHeroIcon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    border:2px solid rgba(255,255,255,.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    margin-bottom:18px;
+    z-index:2;
+}
