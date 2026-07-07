@@ -915,3 +915,46 @@ margin-bottom:10px;
     color:#8b93a6;
     cursor:pointer;
 }
+#loginOptions{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:8px 0 18px;
+    gap:12px;
+}
+.rememberMe{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+    color:#444;
+    cursor:pointer;
+}
+
+.rememberMe input{
+    width:18px;
+    height:18px;
+    accent-color:#2563eb;
+}
+#forgotPassword{
+    text-decoration:none;
+    color:#2563eb;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+#forgotPassword:hover{
+    color:#0b51ff;
+}
+@media (max-width:420px){
+
+    #loginOptions{
+        font-size:13px;
+    }
+
+    #forgotPassword{
+        font-size:13px;
+    }
+
+}
