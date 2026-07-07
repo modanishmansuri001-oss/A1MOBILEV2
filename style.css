@@ -235,7 +235,7 @@ body{
 
 #actionSection{
 
-    padding:10px 20px 18px;
+    padding:6px 20px 8px;
 
     display:flex;
 
@@ -245,13 +245,13 @@ body{
 
     flex-direction:column;
 
-    gap:12px;
+    gap:8px;
 
 }
 
 #loginBtn{
 
-    height:45px;
+    height:40px;
 
     border:none;
 
@@ -271,7 +271,7 @@ margin-bottom:10px;
 
 #registerBtn{
 
-    height:45px;
+    height:40px;
 
    margin-bottom:4px;
 
@@ -283,7 +283,7 @@ margin-bottom:10px;
 
     color:#2563eb;
 
-    font-size:18px;
+    font-size:15px;
 
     font-weight:700;
 
@@ -296,6 +296,7 @@ margin-bottom:10px;
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:0;
+   margin-top:-15px;
     margin:2px 16px 0;
     background:#fff;
     border-radius:18px;
@@ -305,8 +306,8 @@ margin-bottom:10px;
 
 .featureCard{
     text-align:center;
-    padding:8px 4px;
-    min-height:80px;
+    padding:6px 3px;
+    min-height:70px;
     border-right:1px solid #ececec;
     background:#fff;
 }
@@ -316,12 +317,12 @@ margin-bottom:10px;
 }
 
 .featureIcon{
-    font-size:20px;
+    font-size:17px;
     margin-bottom:3px;
 }
 
 .featureCard h3{
-    font-size:9px;
+    font-size:7px;
     font-weight:700;
     color:#111;
     margin-bottom:2px;
@@ -329,7 +330,7 @@ margin-bottom:10px;
 }
 
 .featureCard p{
-    font-size:8px;
+    font-size:6px;
     color:#666;
     line-height:1.2;
 }
