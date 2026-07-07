@@ -731,6 +731,46 @@ margin-bottom:10px;
     transform:translateY(0);
 
 }
+
+/* ========================================= */
+/* STAGGER ANIMATION */
+/* ========================================= */
+
+.stagger{
+
+    opacity:0;
+
+    transform:translateY(25px);
+
+}
+
+.stagger.show{
+
+    animation:staggerUp .65s ease forwards;
+
+}
+
+@keyframes staggerUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
 /* ===================================================== */
 /* ================ HOME PAGE CSS END =================== */
 /* ===================================================== */
