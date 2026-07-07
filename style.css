@@ -1231,3 +1231,92 @@ margin-bottom:10px;
 
 }
 
+#loginHero h1{
+
+    position:relative;
+
+    z-index:2;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    color:#fff;
+
+    margin-bottom:12px;
+
+    letter-spacing:-.5px;
+
+}
+
+#loginHero h1 span{
+
+    color:#7fb3ff;
+
+}
+#loginHero p{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:290px;
+
+    color:rgba(255,255,255,.85);
+
+    font-size:15px;
+
+    line-height:1.6;
+
+}
+#loginHeroIcon{
+
+    box-shadow:
+
+        0 0 35px rgba(72,140,255,.35),
+
+        inset 0 0 18px rgba(255,255,255,.08);
+
+}
+#loginHero::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-45px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:120%;
+
+    height:90px;
+
+    background:#eef4ff;
+
+    border-radius:50%;
+
+}
+#loginHero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:240px;
+
+    height:240px;
+
+    border-radius:50%;
+
+    background:rgba(37,99,235,.18);
+
+    filter:blur(60px);
+
+    top:-80px;
+
+    right:-60px;
+
+}
