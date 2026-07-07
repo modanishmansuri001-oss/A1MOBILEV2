@@ -197,7 +197,7 @@ body{
 
     z-index:2;
 
-    margin-top:-5px;
+    margin-top:-20px;
    margin-bottom:3px;
 
 }
@@ -235,11 +235,15 @@ body{
 
 #actionSection{
 
-    padding:6px 20px 8px;
+    padding:0px 20px 8px;
+
+     position: relative;
 
     display:flex;
 
-   margin-top:-18px;
+   z-index: 10;
+
+   margin-top:-70px;
    
    padding-top:0;
 
