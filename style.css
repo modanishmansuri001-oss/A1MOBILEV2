@@ -369,24 +369,24 @@ margin-bottom:10px;
 }
 
 #trustedIcon{
-    font-size:42px;
-    margin-bottom:8px;
-   margin-top:-8px
+    font-size:35px;
+    margin-bottom:4px;
+   margin-top:-15px
 }
 
 #trustedSection h2{
-    font-size:30px;
+    font-size:25px;
     font-weight:800;
     color:#111;
     margin-bottom:8px;
-   line-height:1.15;
+   line-height:1.1;
 }
 
 #trustedSection p{
     max-width:300px;
-    margin:0 auto 20px;
+    margin:0 auto 18px;
     font-size:15px;
-    line-height:1.5;
+    line-height:1.45;
     color:#666;
 }
 
