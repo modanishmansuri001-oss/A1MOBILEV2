@@ -372,21 +372,21 @@ margin-bottom:10px;
 #trustedIcon{
     font-size:15px;
     margin-bottom:4px;
-   margin-top:1px
+   margin-top:-3px
 }
 
 #trustedSection h2{
     font-size:10px;
     font-weight:800;
     color:#111;
-   margin-top:1px;
-    margin-bottom:8px;
+   margin-top:-3px;
+    margin-bottom:3px;
    line-height:1.1;
 }
 
 #trustedSection p{
     max-width:300px;
-    margin:0 auto 18px;
+   margin-top:3px;
     font-size:7px;
     line-height:1.45;
     color:#666;
