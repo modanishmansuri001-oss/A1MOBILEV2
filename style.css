@@ -580,6 +580,38 @@ margin-bottom:10px;
 
 }
 
+/* ========================================= */
+/* HERO FLOATING ANIMATION */
+/* ========================================= */
+
+#heroImage img{
+
+    animation:
+    zoomImage .8s ease forwards,
+    heroFloat 4s ease-in-out infinite;
+
+    animation-delay:
+    .95s,
+    1.8s;
+
+}
+
+@keyframes heroFloat{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
 /* ===================================================== */
 /* ================ HOME PAGE CSS END =================== */
 /* ===================================================== */
