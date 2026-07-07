@@ -612,6 +612,100 @@ margin-bottom:10px;
 
 }
 
+/* ========================================= */
+/* PREMIUM GLOW ANIMATIONS */
+/* ========================================= */
+
+/* Hero Glow */
+
+#heroImage::before{
+
+    animation: glowPulse 5s ease-in-out infinite;
+
+}
+
+/* Login Button */
+
+#loginBtn{
+
+    animation:
+        fadeUp .6s ease forwards,
+        buttonPulse 2.8s ease-in-out infinite;
+
+    animation-delay:
+        1.15s,
+        2.2s;
+
+}
+
+/* Register Button */
+
+#registerBtn{
+
+    transition:.35s ease;
+
+}
+
+#registerBtn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.18);
+
+}
+
+/* ============================= */
+
+@keyframes glowPulse{
+
+    0%{
+
+        transform:translate(-50%,-50%) scale(1);
+
+        opacity:.25;
+
+    }
+
+    50%{
+
+        transform:translate(-50%,-50%) scale(1.08);
+
+        opacity:.45;
+
+    }
+
+    100%{
+
+        transform:translate(-50%,-50%) scale(1);
+
+        opacity:.25;
+
+    }
+
+}
+
+@keyframes buttonPulse{
+
+    0%{
+
+        box-shadow:0 10px 25px rgba(37,99,235,.25);
+
+    }
+
+    50%{
+
+        box-shadow:0 0 35px rgba(37,99,235,.45);
+
+    }
+
+    100%{
+
+        box-shadow:0 10px 25px rgba(37,99,235,.25);
+
+    }
+
+}
+
 /* ===================================================== */
 /* ================ HOME PAGE CSS END =================== */
 /* ===================================================== */
