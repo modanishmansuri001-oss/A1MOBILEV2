@@ -1090,3 +1090,99 @@ margin-bottom:10px;
     font-size:22px;
 
 }
+#registerBox{
+
+    margin-top:28px;
+
+    background:#f8fbff;
+
+    border:2px solid #edf3ff;
+
+    border-radius:22px;
+
+    padding:18px;
+
+}
+#registerLeft{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    margin-bottom:18px;
+
+}
+#registerIcon{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:18px;
+
+    background:linear-gradient(180deg,#2f7bff,#0b51ff);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:24px;
+
+    flex-shrink:0;
+
+}
+#registerLeft h3{
+
+    font-size:17px;
+
+    color:#111;
+
+    margin-bottom:4px;
+
+}
+#registerLeft p{
+
+    font-size:13px;
+
+    color:#666;
+
+    line-height:1.5;
+
+}
+#registerNowBtn{
+
+    width:100%;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+#registerNowBtn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 24px rgba(37,99,235,.28);
+
+}
+
