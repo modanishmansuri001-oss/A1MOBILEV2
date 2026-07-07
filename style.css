@@ -273,7 +273,7 @@ margin-bottom:10px;
 
     height:45px;
 
-   margin-bottom:10px;
+   margin-bottom:4px;
 
     border:2px solid #2563eb;
 
@@ -298,7 +298,7 @@ margin-bottom:10px;
    padding-top:0;
     grid-template-columns:repeat(4,1fr);
     gap:0;
-    margin:0 16px;
+    margin:8px 16px 0;
     background:#fff;
     border-radius:22px;
     overflow:hidden;
@@ -308,11 +308,12 @@ margin-bottom:10px;
 .featureCard{
     background:transparent;
     text-align:center;
-    padding:18px 10px;
+    padding:12px 6px;
     border-right:1px solid #ececec;
     box-shadow:none;
-    border-radius:0;
-    min-height:auto;
+    border-radius:18px;
+    min-height:120px;
+   padding:0;
 }
 
 .featureCard:last-child{
@@ -320,21 +321,21 @@ margin-bottom:10px;
 }
 
 .featureIcon{
-    font-size:34px;
-    margin-bottom:10px;
-}
-
-.featureCard h3{
-    font-size:15px;
-    font-weight:700;
-    color:#111;
+    font-size:24px;
     margin-bottom:6px;
 }
 
+.featureCard h3{
+    font-size:11px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:4px;
+}
+
 .featureCard p{
-    font-size:13px;
+    font-size:10px;
     color:#666;
-    line-height:1.5;
+    line-height:1.1;
 }
 
 @media(max-width:768px){
