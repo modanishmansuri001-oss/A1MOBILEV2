@@ -143,14 +143,14 @@ body{
 
 #heroBackground{
     position:absolute;
-    width:300px;
-    height:300px;
+    width:390px;
+    height:390px;
     border-radius:50%;
     background:rgba(37,99,235,.10);
-    top:185px;
+    top:160px;
     left:50%;
     transform:translateX(-50%);
-   opacity:.35;
+   opacity:.18;
     z-index:1;
    dispay:none;
 }
@@ -183,7 +183,7 @@ body{
 
 #heroContent p{
     max-width:310px;
-    margin:0 auto 8px;
+    margin:0 auto 2px;
     color:#555;
     font-size:17px;
     line-height:1.55;
@@ -197,14 +197,14 @@ body{
 
     z-index:2;
 
-    margin-top:-20px;
-   margin-bottom: 10px;
+    margin-top:-5px;
+   margin-bottom:5px;
 
 }
 
 #heroImage img{
     width:100%;
-    max-width:330px;
+    max-width:390px;
     display:block;
     margin:0 auto;
    position: relative;
@@ -247,11 +247,11 @@ body{
 
 #loginBtn{
 
-    height:55px;
+    height:58px;
 
     border:none;
 
-    border-radius:18px;
+    border-radius:30px;
 
     background:#2563eb;
 
