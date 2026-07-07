@@ -394,17 +394,18 @@ margin-bottom:10px;
 
 #trustedStats{
     display:flex;
-    gap:12px;
+    gap:10px;
     justify-content:center;
-   margin-top:8px;
+   margin-top:10px;
 }
 
 .trustedBox{
     flex:1;
+   max-width:140px;
     background:#fff;
-    border-radius:16px;
-    padding:16px 10px;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    border-radius:12px;
+    padding:8px 10px;
+    box-shadow:none;
     transition:.3s;
 }
 
@@ -413,19 +414,20 @@ margin-bottom:10px;
 }
 
 .trustedEmoji{
-    font-size:42px;
-    margin-bottom:12px;
+    font-size:18px;
+    margin-bottom:4px;
 }
 
 .trustedBox h3{
-    font-size:28px;
+    font-size:12px;
     font-weight:800;
     color:#111;
-    margin-bottom:6px;
+    margin-bottom:2px;
 }
 
 .trustedBox span{
-    font-size:16px;
+    font-size:8px;
+   line-height:1.2;
     color:#6b7280;
 }
 
