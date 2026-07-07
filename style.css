@@ -363,7 +363,7 @@ margin-bottom:10px;
 ========================= */
 
 #trustedSection{
-    padding:8px 18px 20px;
+    padding:2px 18px 16px;
    margin-top:5px;
     text-align:center;
     background:#fff;
@@ -371,31 +371,32 @@ margin-bottom:10px;
 
 #trustedIcon{
     font-size:15px;
-    margin-bottom:4px;
-   margin-top:-1px;
+    margin-bottom:-8px;
+   margin-top:8px;
 }
 
 #trustedSection h2{
     font-size:10px;
     font-weight:800;
     color:#111;
-   margin-top:2px;
-    margin-bottom:2px;
-   line-height:1.1;
+   margin-top:0;
+    margin-bottom:6px;
+   line-height:1.2;
 }
 
 #trustedSection p{
     max-width:300px;
-   margin-top:2px;
+   margin:0 auto 14px;
     font-size:7px;
-    line-height:1.45;
+    line-height:1.4;
     color:#666;
 }
 
 #trustedStats{
     display:flex;
-    gap:18px;
+    gap:12px;
     justify-content:center;
+   margin-top:8px;
 }
 
 .trustedBox{
