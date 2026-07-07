@@ -995,3 +995,98 @@ margin-bottom:10px;
     }
 
 }
+#loginDivider{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin:26px 0;
+}
+
+#loginDivider span{
+    flex:1;
+    height:1px;
+    background:#e5e7eb;
+}
+
+#loginDivider p{
+    font-size:14px;
+    color:#9aa3b2;
+    font-weight:600;
+}
+#socialLogin{
+
+    text-align:center;
+
+}
+
+#socialLogin>p{
+
+    color:#666;
+
+    font-size:14px;
+
+    margin-bottom:18px;
+
+}
+#socialButtons{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.socialBtn{
+
+    flex:1;
+
+    height:56px;
+
+    border:2px solid #edf1f7;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.socialBtn:hover{
+
+    border-color:#2563eb;
+
+    transform:translateY(-2px);
+
+}
+.googleBtn span{
+
+    color:#ea4335;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.appleBtn span{
+
+    color:#111;
+
+    font-size:22px;
+
+}
