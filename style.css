@@ -1320,3 +1320,48 @@ margin-bottom:10px;
     right:-60px;
 
 }
+
+#loginHero{
+
+    min-height:290px;
+
+    padding:40px 20px 70px;
+
+}
+#loginCard{
+
+    margin-top:-65px;
+
+    border-radius:30px 30px 0 0;
+
+}
+.inputBox{
+
+    border-radius:20px;
+
+}
+.socialBtn{
+
+    border-radius:16px;
+
+}
+#registerBox{
+
+    border-radius:24px;
+
+}
+#loginFooter{
+
+    padding-bottom:10px;
+
+}
+@media(max-width:420px){
+
+    #loginCard{
+
+        padding:24px 18px;
+
+    }
+
+}
+
