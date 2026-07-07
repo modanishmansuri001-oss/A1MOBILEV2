@@ -294,26 +294,21 @@ margin-bottom:10px;
 
 #featuresSection{
     display:grid;
-   margin-top:-15px;
-   padding-top:0;
     grid-template-columns:repeat(4,1fr);
     gap:0;
-    margin:8px 16px 0;
+    margin:2px 16px 0;
     background:#fff;
-    border-radius:22px;
+    border-radius:18px;
     overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 6px 18px rgba(0,0,0,.06);
 }
 
 .featureCard{
-    background:transparent;
     text-align:center;
-    padding:12px 6px;
+    padding:8px 4px;
+    min-height:80px;
     border-right:1px solid #ececec;
-    box-shadow:none;
-    border-radius:18px;
-    min-height:120px;
-   padding:0;
+    background:#fff;
 }
 
 .featureCard:last-child{
@@ -321,21 +316,22 @@ margin-bottom:10px;
 }
 
 .featureIcon{
-    font-size:24px;
-    margin-bottom:6px;
+    font-size:20px;
+    margin-bottom:3px;
 }
 
 .featureCard h3{
-    font-size:11px;
+    font-size:9px;
     font-weight:700;
     color:#111;
-    margin-bottom:4px;
+    margin-bottom:2px;
+   line-height:1.1;
 }
 
 .featureCard p{
-    font-size:10px;
+    font-size:8px;
     color:#666;
-    line-height:1.1;
+    line-height:1.2;
 }
 
 @media(max-width:768px){
@@ -346,19 +342,19 @@ margin-bottom:10px;
     }
 
     .featureCard{
-        padding:14px 6px;
+        padding:8px 4px;
     }
 
     .featureIcon{
-        font-size:26px;
+        font-size:20px;
     }
 
     .featureCard h3{
-        font-size:11px;
+        font-size:9px;
     }
 
     .featureCard p{
-        font-size:10px;
+        font-size:8px;
         line-height:1.3;
     }
 
