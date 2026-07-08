@@ -864,7 +864,7 @@ inset 0 0 20px rgba(255,255,255,.06);
 #loginForm{
     display:flex;
     flex-direction:column;
-    gap:18px;
+    gap:22px;
 }
 
 #loginForm label{
@@ -879,9 +879,9 @@ inset 0 0 20px rgba(255,255,255,.06);
     display:flex;
     align-items:center;
     background:#fff;
-    border:2px solid #edf1f7;
+    border:1.8px solid #e6edf8;
     border-radius:18px;
-    height:68px;
+    height:74px;
     overflow:hidden;
     transition:.3s;
 }
@@ -890,10 +890,10 @@ inset 0 0 20px rgba(255,255,255,.06);
     box-shadow:0 0 0 4px rgba(37,99,235,.12);
 }
 .inputIcon{
-    width:56px;
-    height:56px;
+    width:60px;
+    height:60px;
     margin-left:6px;
-    border-radius:14px;
+    border-radius:18px;
     background:linear-gradient(180deg,#2f7bff,#0b51ff);
     display:flex;
     justify-content:center;
@@ -907,13 +907,13 @@ inset 0 0 20px rgba(255,255,255,.06);
     border:none;
     outline:none;
     background:transparent;
-    font-size:16px;
+    font-size:17px;
     padding:0 16px;
     color:#222;
     font-family:'Poppins',sans-serif;
 }
 .inputBox input::placeholder{
-    color:#9aa3b2;
+    color:#a7b2c2;
 }
 .togglePassword{
     width:52px;
