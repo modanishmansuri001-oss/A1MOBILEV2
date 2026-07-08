@@ -789,6 +789,34 @@ margin-bottom:10px;
     justify-content:flex-start;
     overflow:hidden;
    isolation:isolate;
+   position:relative;
+}
+#loginPage::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:-15%;
+
+    bottom:-180px;
+
+    width:130%;
+
+    height:320px;
+
+    border-radius:50% 50% 0 0;
+
+    background:
+    radial-gradient(circle at center,
+    rgba(40,100,255,.45) 0%,
+    rgba(20,70,220,.22) 45%,
+    transparent 75%);
+
+    pointer-events:none;
+
+    z-index:0;
+
 }
 #loginHero{
     width:100%;
