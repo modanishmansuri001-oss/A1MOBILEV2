@@ -67,3 +67,19 @@ if (menuBtn) {
     });
 
 }
+if (loginBtn) {
+
+    loginBtn.addEventListener("click", function () {
+
+        homePage.style.display = "none";
+        loginPage.style.display = "flex";
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
+
+}
+
