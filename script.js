@@ -50,6 +50,7 @@ window.addEventListener("load",()=>{
 const menuBtn = document.getElementById("menuButton");
 const homePage = document.getElementById("homePage");
 const loginPage = document.getElementById("loginPage");
+const loginBtn = document.getElementById("loginBtn");
 
 if (menuBtn) {
 
