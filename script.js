@@ -47,7 +47,7 @@ window.addEventListener("load",()=>{
 
 });
 
-const menuBtn = document.getElementById("menuBtn");
+const menuBtn = document.getElementById("menuButton");
 const homePage = document.getElementById("homePage");
 const loginPage = document.getElementById("loginPage");
 
