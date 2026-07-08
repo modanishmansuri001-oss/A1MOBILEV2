@@ -1296,22 +1296,27 @@ text-shadow:0 0 18px rgba(110,168,255,.35);
 
     position:absolute;
 
-    bottom:-45px;
+    width:360px;
 
-    left:50%;
+    height:360px;
 
-    transform:translateX(-50%);
+    right:-120px;
 
-    width:120%;
-
-    height:90px;
-
-    background:#eef4ff;
+    top:100px;
 
     border-radius:50%;
 
-}
+    background:
+    radial-gradient(circle,
+    rgba(0,140,255,.20) 0%,
+    rgba(0,140,255,.10) 40%,
+    transparent 75%);
 
+    filter:blur(50px);
+
+    z-index:1;
+
+}
 #loginHero::before{
 
     content:"";
