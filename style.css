@@ -810,9 +810,10 @@ position:relative;
     position:absolute;
     inset:0;
     background:
-    radial-gradient(circle at top,#2b73ff33,transparent 45%),
-    radial-gradient(circle at left,#3d7eff22,transparent 35%),
-    radial-gradient(circle at right,#6aa7ff22,transparent 35%);
+radial-gradient(circle at 50% 18%, rgba(255,255,255,.18) 0%, transparent 16%),
+radial-gradient(circle at 15% 30%, rgba(80,140,255,.18) 0%, transparent 28%),
+radial-gradient(circle at 85% 35%, rgba(80,140,255,.14) 0%, transparent 26%),
+radial-gradient(circle at 70% 15%, rgba(255,255,255,.08) 0%, transparent 12%);
    opacity:.9;
 mix-blend-mode:screen;
 }
