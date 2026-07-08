@@ -56,13 +56,7 @@ if (menuBtn) {
 
     menuBtn.addEventListener("click", function () {
 
-        homePage.style.display = "none";
-        loginPage.style.display = "flex";
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
+        alert("Menu Coming Soon");
 
     });
 
