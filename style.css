@@ -1242,9 +1242,11 @@ inset 0 0 20px rgba(255,255,255,.06);
 
     position:relative;
 
+   line-height:.92;
+
     z-index:2;
 
-    font-size:58px;
+    font-size:68px;
 
     font-weight:900;
 
@@ -1252,7 +1254,7 @@ inset 0 0 20px rgba(255,255,255,.06);
 
     margin-bottom:12px;
 
-    letter-spacing:-.5px;
+    letter-spacing:-2px;
 
 }
 
@@ -1272,9 +1274,9 @@ text-shadow:0 0 18px rgba(110,168,255,.35);
 
     color:rgba(255,255,255,.85);
 
-    font-size:18px;
+    font-size:17px;
 
-    line-height:1.6;
+    line-height:1.45;
 
 }
 #loginHeroIcon{
@@ -1331,14 +1333,14 @@ text-shadow:0 0 18px rgba(110,168,255,.35);
 
 #loginHero{
 
-    min-height:290px;
+    min-height:340px;
 
-    padding:40px 20px 70px;
+    padding:55px 20px 95px;
 
 }
 #loginCard{
 
-    margin-top:-92px;
+    margin-top:-105px;
 
     border-radius:34px;
 
