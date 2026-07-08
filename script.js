@@ -46,3 +46,23 @@ window.addEventListener("load",()=>{
     });
 
 });
+
+const menuBtn = document.getElementById("menuBtn");
+const homePage = document.getElementById("homePage");
+const loginPage = document.getElementById("loginPage");
+
+if (menuBtn) {
+
+    menuBtn.addEventListener("click", function () {
+
+        homePage.style.display = "none";
+        loginPage.style.display = "flex";
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
+
+}
