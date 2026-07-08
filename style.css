@@ -780,7 +780,75 @@ margin-bottom:10px;
 /* ================ LOGIN PAGE CSS START =============== */
 /* ===================================================== */
 
+/* =====================================================
+   STEP 1
+   LOGIN HERO BACKGROUND (BASE)
+===================================================== */
 
+#loginHero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    isolation:isolate;
+
+    min-height:390px;
+
+    padding:40px 20px 120px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:#fff;
+
+    background:
+    linear-gradient(
+    180deg,
+    #06153a 0%,
+    #0b2b77 45%,
+    #123f9f 100%);
+
+}
+/* =====================================================
+   STEP 2
+   HERO DARK SIDE SHAPES
+===================================================== */
+
+#loginHero::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-180px;
+
+    top:40px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(circle,
+    rgba(0,0,0,.32) 0%,
+    rgba(0,0,0,.18) 45%,
+    transparent 75%);
+
+    filter:blur(55px);
+
+    z-index:0;
+
+}
 /* ===========================
    LOGIN PAGE CSS END
 =========================== */
