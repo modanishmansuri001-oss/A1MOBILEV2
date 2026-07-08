@@ -796,6 +796,8 @@ margin-bottom:10px;
     position:relative;
     background:linear-gradient(180deg,#06153a 0%,#0b2f80 100%);
     overflow:hidden;
+   isolation:isolate;
+position:relative;
     display:flex;
     flex-direction:column;
     justify-content:center;
