@@ -844,7 +844,8 @@ radial-gradient(circle at 50% 18%, rgba(255,255,255,.18) 0%, transparent 16%),
 radial-gradient(circle at 15% 30%, rgba(80,140,255,.18) 0%, transparent 28%),
 radial-gradient(circle at 85% 35%, rgba(80,140,255,.14) 0%, transparent 26%),
 radial-gradient(circle at 70% 15%, rgba(255,255,255,.08) 0%, transparent 12%);
-   opacity:.9;
+   background-size:100% 100%;
+   opacity:.95;
 mix-blend-mode:screen;
 }
 #loginHeroIcon{
@@ -1354,29 +1355,31 @@ text-shadow:0 0 18px rgba(110,168,255,.35);
     z-index:1;
 
 }
-#loginHero::before{
+#loginHeroOverlay::before{
 
     content:"";
 
     position:absolute;
 
-    width:420px;
+    inset:0;
 
-    height:420px;
-
-    left:-180px;
-
-    top:30px;
-
-    border-radius:50%;
+    pointer-events:none;
 
     background:
-    radial-gradient(circle,
-    rgba(60,120,255,.18) 0%,
-    rgba(60,120,255,.08) 35%,
-    transparent 75%);
 
-    filter:blur(45px);
+    radial-gradient(circle at 18% 18%, rgba(255,255,255,.22) 0 2px, transparent 3px),
+
+    radial-gradient(circle at 82% 22%, rgba(255,255,255,.18) 0 2px, transparent 3px),
+
+    radial-gradient(circle at 30% 52%, rgba(110,170,255,.18) 0 2px, transparent 3px),
+
+    radial-gradient(circle at 75% 62%, rgba(255,255,255,.15) 0 2px, transparent 3px),
+
+    radial-gradient(circle at 58% 82%, rgba(110,170,255,.18) 0 2px, transparent 3px);
+
+    background-size:100% 100%;
+
+    opacity:.9;
 
     z-index:1;
 
