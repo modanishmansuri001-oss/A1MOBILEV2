@@ -775,6 +775,1541 @@ margin-bottom:10px;
 /* ================ HOME PAGE CSS END =================== */
 /* ===================================================== */
 
+*{
+    margin:0;
+    padding:0;
+    
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    
+    font-family:Arial,sans-serif;
+    background:#000000;
+}
+
+.hero{
+    
+    height:calc(100vh - 75px);
+
+    text-align:center;
+    padding-top:35px;
+    color:#fff;
+    overflow:hidden;
+   background:linear-gradient(
+        180deg,
+        #04112d 0%,
+        #061b52 35%,
+        #0a3ea8 70%,
+        #8fb6ff 88%,
+        #ffffff 100%
+    );
+}
+.hero{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+
+    top: 0px;
+    left: -25px;
+
+    width: 200px;
+    height: 200px;
+
+    background: url("images/left-shield.png") no-repeat;
+    background-size: contain;
+
+    opacity: .30;
+    
+    pointer-events: none;
+    z-index: 0;
+}
+/* BLUE FOG */
+.hero::after{
+    content: "";
+    position: absolute;
+
+    top: -90px;
+    left: 0px;
+
+    width: 220px;
+    height: 220px;
+
+    background: radial-gradient(circle,
+    rgba(45,130,255,.45) 0%,
+    rgba(35,110,255,.25) 45%,
+    rgba(20,70,180,.10) 70%,
+    transparent 100%);
+    border-radius: 50%;
+
+    opacity: .8;
+    filter: blur(35px);
+
+    pointer-events: none;
+    z-index: 1;
+}
+/* TOP BAR */
+.top-bar{
+    height:25px;
+    background:#1f5cff;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+    font-weight:600;
+    text-align:center;
+    padding:0 12px;
+    line-height:1.2;
+}
+/* HEADER */
+
+.main-header{
+    height:50px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 18px;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+.logo-area h1{
+    font-size:20px;
+    margin:0;
+    font-weight:800;
+}
+
+.logo-area p{
+    margin-top:2px;
+    font-size:7px;
+    color:#666;
+}
+
+.logo-area span{
+    color:#1f5cff;
+}
+.menu-btn{
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:transparent;
+    border:none;
+    padding:0;
+    margin-right:8px;
+}
+
+/* HERO */
+
+
+
+.security-logo{
+
+    width:110px;
+
+}
+
+.hero h2{
+display: none;
+}
+
+.hero h2 span{
+
+    color:#1e6bff;
+
+}
+
+.subtitle{
+display: none;
+}
+
+/* LOGIN CARD */
+
+.login-card{
+    width:95%;
+    max-width:590px;
+    
+    background:#fff;
+
+    border-radius:28px;
+
+    padding:36px 14px 60px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.18);
+position:absolute;
+
+left:50%;
+top:200px;
+
+transform:translateX(-50%);
+
+z-index:10;
+    padding-bottom: 35px !important;
+}
+
+.hero-right-flow{
+    position: absolute;
+
+    right: -30px;
+    top: -20px;
+
+    width: 150px;
+    height: auto;
+
+    opacity: .10;
+
+    pointer-events: none;
+    z-index: 0;
+    }
+.hero-stars{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+}
+.hero-stars span{
+    position:absolute;
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background:#4fb8ff;
+    box-shadow:
+    0 0 5px #4fb8ff,
+    0 0 12px #4fb8ff,
+    0 0 22px #4fb8ff,
+    0 0 35px rgba(79,184,255,.8);
+}
+
+.hero-stars span::after{
+    content:"";
+    position:absolute;
+
+    width:2px;
+    height:2px;
+
+    top:1px;
+    left:1px;
+
+    border-radius:50%;
+    background:#ffffff;
+
+    box-shadow:0 0 6px #ffffff;
+}
+
+.security-rings{
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hero-title{
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-title span{
+    color: #1e6bff;
+}
+
+.hero-text{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgba(255,255,255,.85);
+    text-align: center;
+}
+.input-label{
+    display:block;
+    text-align:left;
+    padding-left:2px;
+    font-size:14px;
+    font-weight:700;
+    color:#111;
+    position:relative;
+    left:0px;
+    margin-top: -8px;
+    margin-bottom:6px;
+}
+
+.input-field{
+    margin-left: -10px;
+    position: relative;
+    width:100%;
+    max-width:100%;
+    margin-top: 10px;
+    height:35px;
+    border:2px solid #eceffd;
+    border-radius:8px;
+    overflow:hidden;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    border: 1px solid #e8ecfa;
+
+    padding:0 6px;   /* ya 8px */
+}
+
+.left-icon{
+    width:30px;
+    height:30px;
+
+    margin:0 6px 0 0;          /* ye sabse important hai */
+
+    border-radius:3px;
+
+    background:linear-gradient(180deg,#2f7cff,#155dff);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    box-shadow:0 6px 14px rgba(47,124,255,.35);
+
+    flex-shrink:0;
+}
+
+.left-icon img{
+    position: relative;
+    top: 0px;
+    width:50px;
+    height:50px;
+    object-fit:contain;
+}
+
+.input-field input{
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    padding: 0 10px;
+    padding-left:16px;
+    padding-right:12px;
+}
+.right-icon{
+
+    width:62px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    color:#bdbdbd;
+}
+
+.right-icon{
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.right-icon img{
+    width:24px;
+    height:24px;
+    opacity:0.6;
+    cursor:pointer;
+}
+
+.input-group{
+    margin-bottom:22px;
+}
+
+.password-group{
+    margin-top:8px;
+}
+
+.remember-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:18px 10px 25px;
+}
+
+.remember-me{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:16px;
+    color:#333;
+    font-weight:500;
+}
+
+.remember-me input{
+    width:18px;
+    height:18px;
+    accent-color:#1565ff;
+}
+
+.forgot-password{
+    color:#1565ff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+}
+
+.forgot-password:hover{
+    text-decoration:underline;
+}
+
+.login-btn{
+    width:100%;
+    height:40px;
+    margin-top:20px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(90deg,#0f5cff,#1f6cff);
+    color:#fff;
+    font-size:15px;
+    font-weight:700;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,80,255,.35);
+}
+
+.login-btn img{
+    width:24px;
+    height:24px;
+    filter:brightness(0) invert(1);
+}
+
+/* OR DIVIDER */
+
+.or-divider{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:28px 0 20px;
+    margin-top: 5px !important;
+    margin-bottom: 8px !important;
+}
+
+.or-divider span{
+    flex:1;
+    height:1px;
+    background:#d9dfe8;
+}
+
+.or-divider b{
+    font-size:14px;
+    font-weight:500;
+    color:#777;
+}
+
+
+/* REGISTER BOX */
+
+.register-box{
+    width:100%;
+    height: 60px;
+    min-height:60px;
+    padding:8px 12px;
+    background:#f1f6ff;
+    border-radius:18px;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    box-sizing:border-box;
+}
+
+
+/* REGISTER ICON */
+
+.register-icon{
+    width:40px;
+    height:40px;
+    flex-shrink:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.register-icon img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+
+/* TEXT */
+
+.register-text{
+    flex:1;
+    justify-content: center;
+    min-width:0;
+    margin-left: 8px;
+    align-items: flex-start;
+    display:flex;
+    text-align: left;
+    transform: translateY(2px);
+    flex-direction:column;
+    gap:4px;
+}
+
+.register-text strong{
+    display: block;
+    margin-bottom: 4px;
+    font-size:10px;
+    line-height: 20px;
+    color:#111;
+    white-space:nowrap;
+}
+
+.register-text small{
+    display:block;
+    font-size:8px;
+    color:#667085;
+    line-height:18px;
+    font-weight:550;
+
+    margin-top:-15px !important;
+}
+
+
+/* REGISTER BUTTON */
+
+.register-btn{
+    flex-shrink:0;
+    height:21px;
+    padding:0 10px;
+
+    background:#fff;
+    border:1.5px solid #1465df;
+    border-radius:8px;
+
+    color:#1465df;
+    font-size:8px;
+    font-weight:600;
+
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.register-btn span{
+    font-size:18px;
+    line-height:1;
+}
+
+/* SECURITY FEATURES */
+.security-icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(8px);
+}
+
+.security-icon svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: #1769e8;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.security-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 15px;
+    text-align: left;
+}
+
+.security-text strong {
+    font-size: 11px;
+    font-weight: 600;
+    color: #222;
+    white-space: nowrap;
+}
+
+.security-text span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #555;
+    white-space: nowrap;
+}
+
+.security-features {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    margin-top: 18px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.security-item {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-width: 0;
+}
+
+.security-divider {
+    width: 1px;
+    height: 32px;
+    background: #d8d8d8;
+    flex-shrink: 0;
+}
+
+.bottom-flow {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.bottom-flow img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* ===== FINAL BOTTOM FLOW + LOGO ===== */
+
+.bottom-flow {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: -15px !important;
+
+    width: 100% !important;
+    height: 125px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: visible !important;
+    line-height: 0 !important;
+
+    z-index: 1 !important;
+    pointer-events: none !important;
+
+    background: transparent !important;
+}
+
+/* Only bottom wave */
+.bottom-flow > img:first-child {
+    display: block !important;
+
+    width: 100% !important;
+    height: 125px !important;
+
+    object-fit: fill !important;
+    object-position: center bottom !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* ===== ADVANCED ANIMATION 01 ===== */
+
+.security-rings {
+    animation: securityPulse 2.8s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    will-change: filter, opacity;
+}
+
+@keyframes securityPulse {
+    0%, 100% {
+        filter:
+            drop-shadow(0 0 2px rgba(0, 180, 255, .25))
+            drop-shadow(0 0 6px rgba(0, 120, 255, .10));
+        opacity: .94;
+    }
+
+    50% {
+        filter:
+            drop-shadow(0 0 5px rgba(0, 210, 255, .75))
+            drop-shadow(0 0 18px rgba(0, 130, 255, .45));
+        opacity: 1;
+    }
+}
+
+/* ===== ADVANCED STAR TWINKLE ===== */
+
+.hero-stars span {
+    animation: starTwinkle 2s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform, opacity, filter;
+}
+
+.hero-stars span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.hero-stars span:nth-child(2) {
+    animation-delay: .35s;
+}
+
+.hero-stars span:nth-child(3) {
+    animation-delay: .7s;
+}
+
+.hero-stars span:nth-child(4) {
+    animation-delay: 1.05s;
+}
+
+.hero-stars span:nth-child(5) {
+    animation-delay: 1.4s;
+}
+
+.hero-stars span:nth-child(6) {
+    animation-delay: 1.75s;
+}
+
+.hero-stars span:nth-child(7) {
+    animation-delay: .5s;
+}
+
+.hero-stars span:nth-child(8) {
+    animation-delay: 1.2s;
+}
+
+@keyframes starTwinkle {
+
+    0%, 100% {
+        transform: scale(.55);
+        opacity: .25;
+        filter: brightness(.8);
+    }
+
+    50% {
+        transform: scale(1.8);
+        opacity: 1;
+        filter: brightness(2);
+    }
+}
+
+/* ===== STEP 3 : SECURITY SHIELD ENERGY ===== */
+
+.security-rings {
+    animation:
+        shieldPulse 2.8s ease-in-out infinite,
+        shieldGlow 2.8s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform, filter;
+}
+
+@keyframes shieldPulse {
+    0%, 100% {
+        transform: translateX(-50%) scale(0.96);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.06);
+    }
+}
+
+@keyframes shieldGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 0px rgba(0, 180, 255, 0));
+    }
+
+    50% {
+        filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
+    }
+}
+
+.security-rings {
+    animation:
+        shieldPulse 2.8s ease-in-out infinite,
+        shieldGlow 2.8s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform, filter;
+}
+
+@keyframes shieldPulse {
+    0%, 100% {
+        transform: translateX(-50%) scale(0.96);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.06);
+    }
+}
+
+@keyframes shieldGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 0px rgba(0, 180, 255, 0));
+    }
+
+    50% {
+        filter: brightness(1.25) drop-shadow(0 0 12px rgba(0, 200, 255, 0.75));
+    }
+}
+
+
+/* ===== STEP 4 : LOGIN BUTTON LIGHT SWEEP ===== */
+
+.login-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* Moving light */
+.login-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+        110deg,
+        transparent 0%,
+        rgba(255,255,255,0.08) 35%,
+        rgba(255,255,255,0.65) 50%,
+        rgba(255,255,255,0.08) 65%,
+        transparent 100%
+    );
+
+    transform: skewX(-20deg);
+    animation: loginShine 3.2s ease-in-out infinite;
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Icon + text uper rahenge */
+.login-btn img,
+.login-btn {
+    isolation: isolate;
+}
+
+@keyframes loginShine {
+    0% {
+        left: -80%;
+    }
+
+    45%,
+    100% {
+        left: 130%;
+    }
+}
+
+/* ===== STEP 5 : ADVANCED INPUT FOCUS ===== */
+
+.login-input {
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.25s ease,
+        background 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: #2475ff !important;
+    background: #ffffff !important;
+
+    box-shadow:
+        0 0 0 3px rgba(36, 117, 255, 0.12),
+        0 8px 24px rgba(36, 117, 255, 0.12) !important;
+
+    transform: translateY(-2px);
+    outline: none;
+}
+
+/* Placeholder smooth */
+.login-input::placeholder {
+    transition: opacity 0.25s ease;
+}
+
+.login-input:focus::placeholder {
+    opacity: 0.45;
+}
+
+/* ===== STEP 5 FIX : PREMIUM INPUT FOCUS ===== */
+
+.input-field {
+    transition:
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        transform 0.25s ease,
+        background 0.35s ease;
+}
+
+.input-field:focus-within {
+    border-color: #1e6bff !important;
+
+    box-shadow:
+        0 0 0 3px rgba(30,107,255,.12),
+        0 6px 20px rgba(30,107,255,.18) !important;
+
+    transform: translateY(-2px);
+    background: #ffffff !important;
+}
+
+.input-field:focus-within .left-icon {
+    transform: scale(1.05);
+    box-shadow: 0 0 14px rgba(30,107,255,.35);
+}
+
+.input-field .left-icon {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.input-field input {
+    transition: color 0.3s ease;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+/* ===== STEP 6 : LOGIN BUTTON PREMIUM ANIMATION ===== */
+
+.login-btn {
+    background: linear-gradient(
+        120deg,
+        #0f5cff,
+        #1f6cff,
+        #62a8ff,
+        #1f6cff,
+        #0f5cff
+    ) !important;
+
+    background-size: 300% 100% !important;
+
+    animation: loginPremium 3s ease-in-out infinite !important;
+
+    box-shadow:
+        0 8px 20px rgba(0,80,255,.35),
+        0 0 0 rgba(30,107,255,0);
+}
+
+@keyframes loginPremium {
+
+    0% {
+        background-position: 0% 50%;
+        box-shadow:
+            0 8px 20px rgba(0,80,255,.35),
+            0 0 0 rgba(30,107,255,0);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        box-shadow:
+            0 8px 24px rgba(0,80,255,.45),
+            0 0 18px rgba(30,107,255,.20);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        box-shadow:
+            0 8px 20px rgba(0,80,255,.35),
+            0 0 0 rgba(30,107,255,0);
+    }
+}
+
+/* ===== STEP 7 : LOGIN BUTTON PRESS EFFECT ===== */
+
+.login-btn {
+    transition:
+        transform 0.12s ease,
+        box-shadow 0.12s ease !important;
+}
+
+.login-btn:active {
+    transform: scale(0.96) !important;
+
+    box-shadow:
+        0 3px 10px rgba(0,80,255,.35),
+        0 0 25px rgba(30,107,255,.35) !important;
+}
+
+/* ===== STEP 8 : FORGOT PASSWORD PREMIUM GLOW ===== */
+
+.forgot-password {
+    position: relative !important;
+    display: inline-block;
+    color: #246BDB !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+}
+
+/* Animated blue underline */
+.forgot-password::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #1677ff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(22,119,255,.8);
+    transition: width 0.35s ease;
+}
+
+/* Touch / press effect */
+.forgot-password:active,
+.forgot-password:focus {
+    color: #075cff !important;
+    transform: scale(0.96);
+    text-shadow: 0 0 10px rgba(22,119,255,.55);
+}
+
+.forgot-password:active::after,
+.forgot-password:focus::after {
+    width: 100%;
+}
+
+/* ===== STEP 9 : PREMIUM INPUT ICON PULSE ===== */
+
+.input-field .left-icon {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: iconPulse 2.8s ease-in-out infinite;
+}
+
+.input-field .left-icon img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Soft premium breathing effect */
+@keyframes iconPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(30,107,255,0);
+    }
+
+    50% {
+        transform: scale(1.035);
+        box-shadow: 0 0 16px rgba(30,107,255,.22);
+    }
+}
+
+/* Touch / focus par stronger effect */
+.input-field:focus-within .left-icon {
+    transform: scale(1.08);
+    box-shadow:
+        0 0 10px rgba(30,107,255,.35),
+        0 0 22px rgba(30,107,255,.18);
+}
+
+.input-field:focus-within .left-icon img {
+    transform: scale(1.08);
+    filter: brightness(1.15);
+}
+
+/* ===== STEP 10 : PREMIUM EYE ICON ===== */
+
+.password-group .right-icon {
+    cursor: pointer;
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.password-group .right-icon img {
+    transition:
+        transform 0.3s ease,
+        filter 0.3s ease,
+        opacity 0.3s ease;
+}
+
+/* Touch / tap feedback */
+.password-group .right-icon:active {
+    transform: scale(0.88);
+}
+
+.password-group .right-icon:active img {
+    transform: scale(1.15);
+    filter: brightness(1.15);
+}
+
+/* Soft breathing glow */
+.password-group .right-icon img {
+    animation: eyeBreath 3s ease-in-out infinite;
+}
+
+@keyframes eyeBreath {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.72;
+    }
+
+    50% {
+        transform: scale(1.06);
+        opacity: 1;
+    }
+}
+
+/* Password field active hone par */
+.password-group .input-field:focus-within .right-icon img {
+    filter: drop-shadow(0 0 6px rgba(30,107,255,.45));
+    opacity: 1;
+}
+
+/* ===== STEP 11 : PREMIUM REMEMBER CHECKBOX ===== */
+
+.remember-me input {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 19px;
+    height: 19px;
+    margin: 0;
+
+    border: 2px solid #cbd5e1;
+    border-radius: 5px;
+    background: #fff;
+
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Check mark */
+.remember-me input::before {
+    content: "";
+    width: 5px;
+    height: 9px;
+
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+    transform: rotate(45deg) scale(0);
+    transition: transform 0.2s ease;
+}
+
+/* Checked state */
+.remember-me input:checked {
+    background: #1565ff;
+    border-color: #1565ff;
+
+    box-shadow:
+        0 0 0 4px rgba(21,101,255,.10),
+        0 4px 10px rgba(21,101,255,.25);
+
+    animation: rememberPop 0.35s ease;
+}
+
+.remember-me input:checked::before {
+    transform: rotate(45deg) scale(1);
+}
+
+/* Tap effect */
+.remember-me input:active {
+    transform: scale(0.82);
+}
+
+@keyframes rememberPop {
+    0% {
+        transform: scale(0.75);
+    }
+
+    60% {
+        transform: scale(1.12);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+/* ===== STEP 12 : PREMIUM REGISTER BUTTON ===== */
+
+.register-btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+
+    box-shadow: 0 3px 10px rgba(20,101,223,.08);
+}
+
+/* Moving shine */
+.register-btn::before {
+    content: "";
+    position: absolute;
+
+    top: -30%;
+    left: -80%;
+
+    width: 45%;
+    height: 160%;
+
+    background: linear-gradient(
+        110deg,
+        transparent,
+        rgba(255,255,255,.85),
+        transparent
+    );
+
+    transform: skewX(-20deg);
+
+    animation: registerShine 3.2s ease-in-out infinite;
+
+    pointer-events: none;
+}
+
+/* Text + arrow above shine */
+.register-btn {
+    z-index: 1;
+}
+
+.register-btn span,
+.register-btn {
+    isolation: isolate;
+}
+
+/* Soft breathing glow */
+.register-btn {
+    animation: registerGlow 3s ease-in-out infinite;
+}
+
+/* Touch effect */
+.register-btn:active {
+    transform: scale(.94);
+    box-shadow:
+        0 2px 6px rgba(20,101,223,.15);
+}
+
+/* Arrow animation */
+.register-btn span {
+    display: inline-block;
+    transition: transform .25s ease;
+}
+
+.register-btn:active span {
+    transform: translateX(4px);
+}
+
+/* Shine movement */
+@keyframes registerShine {
+
+    0%, 45% {
+        left: -80%;
+    }
+
+    70%, 100% {
+        left: 140%;
+    }
+}
+
+/* Very subtle premium glow */
+@keyframes registerGlow {
+
+    0%, 100% {
+        box-shadow: 0 3px 10px rgba(20,101,223,.08);
+    }
+
+    50% {
+        box-shadow:
+            0 5px 16px rgba(20,101,223,.18);
+    }
+}
+
+/* ===== STEP 13 : PREMIUM OR DIVIDER ===== */
+
+.or-divider {
+    position: relative;
+    overflow: hidden;
+}
+
+.or-divider::before,
+.or-divider::after {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Moving light across divider */
+.or-divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    width: 25%;
+    height: 1px;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(30,107,255,.8),
+        transparent
+    );
+
+    animation: dividerLight 3.5s linear infinite;
+}
+
+/* Soft OR glow */
+.or-divider span {
+    position: relative;
+    z-index: 2;
+    animation: orGlow 2.8s ease-in-out infinite;
+}
+
+@keyframes dividerLight {
+    0% {
+        left: -30%;
+    }
+
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes orGlow {
+    0%, 100% {
+        opacity: .65;
+        text-shadow: 0 0 0 rgba(30,107,255,0);
+    }
+
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 8px rgba(30,107,255,.35);
+    }
+}
+
+/* ===== STEP 14 : OR PREMIUM LIGHT SWEEP ===== */
+
+.or-divider {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.or-divider span {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* OR ke dono sides par moving blue light */
+.or-divider span::after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: -60%;
+
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(30,107,255,.75),
+        transparent
+    );
+
+    animation: orLineSweep 2.8s ease-in-out infinite;
+}
+
+/* Right line thoda delay se */
+.or-divider span:last-child::after {
+    animation-delay: 1.4s;
+}
+
+/* OR text */
+.or-divider b {
+    position: relative;
+    z-index: 5;
+
+    color: #7b8494 !important;
+
+    animation: orTextPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes orLineSweep {
+
+    0% {
+        left: -60%;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 120%;
+        opacity: 0;
+    }
+}
+
+@keyframes orTextPulse {
+
+    0%, 100% {
+        opacity: .65;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.06);
+        text-shadow: 0 0 8px rgba(30,107,255,.25);
+    }
+}
+
+/* ===== STEP 15 : SECURITY ICONS PREMIUM FLOAT ===== */
+
+.security-item i,
+.security-item img {
+    animation: securityFloat 3s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.security-item:nth-child(2) i,
+.security-item:nth-child(2) img {
+    animation-delay: .8s;
+}
+
+.security-item:nth-child(3) i,
+.security-item:nth-child(3) img {
+    animation-delay: 1.6s;
+}
+
+@keyframes securityFloat {
+
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        filter: drop-shadow(0 0 0 rgba(30,107,255,0));
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1.05);
+        filter: drop-shadow(0 0 7px rgba(30,107,255,.35));
+    }
+}
+
+/* ===== STEP 15 FIX : SECURITY ICON PREMIUM FLOAT ===== */
+
+.security-icon {
+    animation: securityIconFloat 3s ease-in-out infinite;
+    transform-origin: center;
+}
+
+.security-item:nth-of-type(3) .security-icon {
+    animation-delay: 0.8s;
+}
+
+.security-item:nth-of-type(5) .security-icon {
+    animation-delay: 1.6s;
+}
+
+.security-item:nth-of-type(7) .security-icon {
+    animation-delay: 2.4s;
+}
+
+@keyframes securityIconFloat {
+
+    0%, 100% {
+        transform: translateY(8px) scale(1);
+        filter: drop-shadow(0 0 0 rgba(23,105,232,0));
+    }
+
+    50% {
+        transform: translateY(3px) scale(1.08);
+        filter: drop-shadow(0 0 7px rgba(23,105,232,.40));
+    }
+}
+
+/* =========================================
+   STEP — REGISTER BUTTON PREMIUM SHINE
+   ========================================= */
+
+#registerBtn{
+    position: relative !important;
+    overflow: hidden !important;
+    isolation: isolate;
+}
+
+/* Moving shine */
+#registerBtn::after{
+    content: "" !important;
+    position: absolute !important;
+    top: -20% !important;
+    left: -70% !important;
+
+    width: 35% !important;
+    height: 140% !important;
+
+    background: rgba(255,255,255,.55) !important;
+
+    transform: skewX(-25deg) !important;
+    filter: blur(2px) !important;
+
+    animation: registerShine 3.2s ease-in-out infinite !important;
+
+    pointer-events: none !important;
+    z-index: 1 !important;
+}
+
+/* Keep button text/icon above shine */
+#registerBtn *{
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes registerShine{
+
+    0%{
+        left: -70%;
+    }
+
+    45%{
+        left: 125%;
+    }
+
+    100%{
+        left: 125%;
+    }
+
+}
+
 
 /* ===================================================== */
 /* ================ LOGIN PAGE CSS START =============== */
