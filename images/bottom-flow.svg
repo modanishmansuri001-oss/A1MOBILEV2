@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 180"
+     preserveAspectRatio="none">
+
+  <!-- Main blue curved edge -->
+  <path
+    d="M0 22
+       C125 72 245 105 380 82
+       C520 58 650 18 800 42
+       L800 180
+       L0 180
+       Z"
+    fill="#1557c8"/>
+
+  <!-- Deep navy lower section -->
+  <path
+    d="M0 43
+       C130 93 250 126 385 103
+       C525 78 655 38 800 62
+       L800 180
+       L0 180
+       Z"
+    fill="#082d78"/>
+
+</svg>
