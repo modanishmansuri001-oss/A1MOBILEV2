@@ -802,6 +802,25 @@ margin-bottom:10px;
         #ffffff 100%
     );
 }
+
+/* PAGE SWITCH FIX */
+
+#homePage{
+    display:block;
+}
+
+#loginPage{
+    display:none;
+}
+
+body.login-mode #homePage{
+    display:none !important;
+}
+
+body.login-mode #loginPage{
+    display:flex !important;
+}
+
 .hero{
     position: relative;
     overflow: hidden;
