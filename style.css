@@ -818,7 +818,7 @@ body.login-mode #homePage{
 }
 
 body.login-mode #loginPage{
-    display:flex !important;
+    display:block !important;
 }
 
 .hero{
