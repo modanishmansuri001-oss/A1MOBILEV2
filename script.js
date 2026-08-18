@@ -73,16 +73,3 @@ eye.onclick = function () {
         eye.src = "images/eye.svg";
     }
 };
-// HOME → LOGIN
-
-const loginBtn = document.getElementById("loginBtn");
-
-if (loginBtn) {
-    loginBtn.addEventListener("click", function () {
-
-        document.body.classList.add("login-mode");
-
-        window.scrollTo(0, 0);
-
-    });
-}
