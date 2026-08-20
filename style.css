@@ -1020,7 +1020,7 @@ z-index:10;
 
 .security-rings{
     position: absolute;
-    top: -15px;
+    top: -90px;
     left: 50%;
     transform: translateX(-50%);
     width: 160px;
