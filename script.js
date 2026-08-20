@@ -1,75 +1,63 @@
+// ===============================
+// A1 REWARDS PAGE SWITCH
+// ===============================
 
-/* ==========================================
-   SCROLL REVEAL
-========================================== */
+document.addEventListener("DOMContentLoaded", function () {
 
-const reveals = document.querySelectorAll(".reveal");
+    const homePage = document.getElementById("homePage");
+    const loginPage = document.getElementById("loginPage");
+    const loginBtn = document.getElementById("loginBtn");
+    const menuBtn = document.querySelector("#loginPage .menu-btn");
 
-function revealSections(){
+    // HOME PAGE
+    function showHome() {
 
-    const windowHeight = window.innerHeight;
+        if (!homePage || !loginPage) return;
 
-    reveals.forEach(section=>{
+        document.body.classList.remove("login-mode");
+        document.body.classList.add("home-mode");
 
-        const top = section.getBoundingClientRect().top;
+        homePage.style.display = "block";
+        loginPage.style.display = "none";
 
-        if(top < windowHeight - 80){
+        window.scrollTo(0, 0);
+    }
 
-            section.classList.add("active");
+    // LOGIN PAGE
+    function showLogin() {
 
-        }
+        if (!homePage || !loginPage) return;
 
-    });
+        document.body.classList.remove("home-mode");
+        document.body.classList.add("login-mode");
 
-}
+        homePage.style.display = "none";
+        loginPage.style.display = "block";
 
-window.addEventListener("scroll", revealSections);
+        window.scrollTo(0, 0);
+    }
 
-window.addEventListener("load", revealSections);
+    // LOGIN BUTTON
+    if (loginBtn) {
+        loginBtn.addEventListener("click", function (e) {
 
-/* ==========================================
-   STAGGER ANIMATION
-========================================== */
+            e.preventDefault();
+            showLogin();
 
-const staggerItems=document.querySelectorAll(".stagger");
+        });
+    }
 
-window.addEventListener("load",()=>{
+    // LOGIN PAGE MENU = HOME
+    if (menuBtn) {
+        menuBtn.addEventListener("click", function (e) {
 
-    staggerItems.forEach((item,index)=>{
+            e.preventDefault();
+            showHome();
 
-        setTimeout(()=>{
+        });
+    }
 
-            item.classList.add("show");
-
-        },index*180);
-
-    });
+    // FIRST LOAD = HOME
+    showHome();
 
 });
-
-const menuBtn = document.getElementById("menuButton");
-const homePage = document.getElementById("homePage");
-const loginPage = document.getElementById("loginPage");
-
-if (menuBtn) {
-
-    menuBtn.addEventListener("click", function () {
-
-        alert("Menu Coming Soon");
-
-    });
-
-}
-const pass = document.getElementById("password");
-
-const eye = document.querySelector(".password-group .right-icon img");
-
-eye.onclick = function () {
-    if (pass.type === "password") {
-        pass.type = "text";
-        eye.src = "images/eye-off.svg";
-    } else {
-        pass.type = "password";
-        eye.src = "images/eye.svg";
-    }
-};
