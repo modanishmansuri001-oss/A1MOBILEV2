@@ -769,6 +769,26 @@ margin-bottom:10px;
 
 }
 
+/* LOGIN BUTTON CLICK EFFECT */
+#loginBtn{
+    cursor: pointer;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+#loginBtn:active{
+    transform: scale(0.94);
+    box-shadow: 0 4px 12px rgba(37,99,235,.25);
+}
+
+#registerBtn{
+    cursor: pointer;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+#registerBtn:active{
+    transform: scale(0.94);
+    box-shadow: 0 4px 12px rgba(37,99,235,.18);
+}
 
 /* ===================================================== */
 /* ================ HOME PAGE CSS END =================== */
