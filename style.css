@@ -2682,8 +2682,8 @@ z-index:10;
 /* Shield */
 
 .register-shield{
-    width:105px;
-    height:105px;
+    width:75px;
+    height:75px;
 
     margin:0 auto 15px;
 
@@ -2709,7 +2709,7 @@ z-index:10;
 .register-hero h2{
     margin:0;
 
-    font-size:34px;
+    font-size:20px;
     line-height:1.15;
 
     font-weight:900;
