@@ -2547,20 +2547,20 @@ z-index:10;
 /* Announcement */
 
 .register-announcement{
-    width:100%;
-    min-height:20px;
+    width:50%;
+    min-height:10px;
 
     display:flex;
     align-items:center;
     justify-content:center;
 
-    padding:6px 10px;
+    padding:4px 8px;
 
     background:linear-gradient(90deg,#145ee8,#2869ee);
 
     color:#fff;
 
-    font-size:12px;
+    font-size:10px;
     font-weight:600;
 
     text-align:center;
