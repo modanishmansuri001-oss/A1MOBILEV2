@@ -2771,3 +2771,25 @@ z-index:10;
         font-size:15px;
     }
 }
+/* ===== REGISTER ANNOUNCEMENT BAR SIZE FIX ===== */
+
+#announcementBar,
+.register-announcement{
+    width:100% !important;
+    height:32px !important;
+    min-height:32px !important;
+    max-height:32px !important;
+
+    padding:0 8px !important;
+
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+
+    font-size:11px !important;
+    line-height:1 !important;
+    font-weight:600 !important;
+
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+}
