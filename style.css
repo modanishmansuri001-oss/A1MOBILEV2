@@ -2793,3 +2793,35 @@ z-index:10;
     box-sizing:border-box !important;
     overflow:hidden !important;
 }
+/* ===== FINAL ANNOUNCEMENT BAR FIX ===== */
+@media (max-width:600px){
+
+    #announcementBar,
+    .register-announcement{
+        height:28px !important;
+        min-height:28px !important;
+        max-height:28px !important;
+
+        padding:0 6px !important;
+
+        font-size:10px !important;
+        line-height:1 !important;
+        font-weight:600 !important;
+
+        display:flex !important;
+        align-items:center !important;
+        justify-content:center !important;
+
+        overflow:hidden !important;
+        box-sizing:border-box !important;
+    }
+
+    #announcementBar p,
+    .register-announcement p{
+        margin:0 !important;
+        padding:0 !important;
+        font-size:10px !important;
+        line-height:1 !important;
+        white-space:nowrap !important;
+    }
+}
