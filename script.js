@@ -44,6 +44,9 @@ const loginPage = document.getElementById("loginPage");
 const loginBtn = document.getElementById("loginBtn");
 const menuBtn = document.getElementById("menuButton");
 
+const registerBtn = document.getElementById("registerBtn");
+const registerPage = document.getElementById("registerPage");
+
 
 /* ==========================================
    HOME → LOGIN
@@ -58,6 +61,25 @@ function showLogin() {
 
     window.scrollTo(0, 0);
 
+}
+
+/* ==========================================
+   HOME → REGISTER
+========================================== */
+
+function showRegister() {
+
+    if (!homePage || !loginPage || !registerPage) return;
+
+    document.body.classList.remove("home-mode");
+    document.body.classList.remove("login-mode");
+    document.body.classList.add("register-mode");
+
+    homePage.style.display = "none";
+    loginPage.style.display = "none";
+    registerPage.style.display = "block";
+
+    window.scrollTo(0, 0);
 }
 
 
@@ -95,6 +117,21 @@ if (loginBtn) {
 
 }
 
+/* ==========================================
+   REGISTER BUTTON
+========================================== */
+
+if (registerBtn) {
+
+    registerBtn.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        showRegister();
+
+    });
+
+}
 
 /* ==========================================
    HOME MENU
