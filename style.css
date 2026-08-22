@@ -2430,3 +2430,10 @@ z-index:10;
     pointer-events:none;
     z-index:0;
 }
+/* REGISTER PAGE — TEMPORARY TEST */
+
+#registerPage{
+    display:none;
+    width:100%;
+    min-height:100vh;
+}
