@@ -2548,7 +2548,7 @@ z-index:10;
 
 .register-announcement{
     width:100%;
-    min-height:44px;
+    min-height:25px;
 
     display:flex;
     align-items:center;
