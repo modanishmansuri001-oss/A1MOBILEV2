@@ -2798,9 +2798,9 @@ z-index:10;
 
     #announcementBar,
     .register-announcement{
-        height:28px !important;
-        min-height:28px !important;
-        max-height:28px !important;
+        height:20px !important;
+        min-height:20px !important;
+        max-height:20px !important;
 
         padding:0 6px !important;
 
