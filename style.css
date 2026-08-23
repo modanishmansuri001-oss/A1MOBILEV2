@@ -2834,3 +2834,16 @@ z-index:10;
 .back-btn{
     transform: translateX(-8px);
 }
+/* ===== HEADER ICON POSITION FIX ===== */
+
+/* 3-line hamburger - thoda upar */
+.main-header .menu-btn {
+    position: relative !important;
+    top: -4px !important;
+}
+
+/* Back arrow - thoda left */
+.back-btn {
+    position: relative !important;
+    left: -8px !important;
+}
