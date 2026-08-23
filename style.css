@@ -2847,3 +2847,19 @@ z-index:10;
     position: relative !important;
     left: -20px !important;
 }
+
+/* ===== REGISTER PAGE HEADER POSITION FIX ===== */
+
+/* 3 line / menu icon ko thoda upar */
+.register-page .menu-btn,
+#registerPage .menu-btn {
+    position: relative !important;
+    top: -18px !important;
+}
+
+/* Back button ko thoda left */
+.register-page .back-btn,
+#registerPage .back-btn {
+    position: relative !important;
+    left: -18px !important;
+}
