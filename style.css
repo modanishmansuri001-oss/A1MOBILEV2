@@ -2825,3 +2825,12 @@ z-index:10;
         white-space:nowrap !important;
     }
 }
+/* Header icon adjustment */
+.menu-btn{
+    transform: translateY(-3px);
+}
+
+/* Back arrow */
+.back-btn{
+    transform: translateX(-8px);
+}
