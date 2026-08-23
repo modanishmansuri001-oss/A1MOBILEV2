@@ -2839,11 +2839,11 @@ z-index:10;
 /* 3-line hamburger - thoda upar */
 .main-header .menu-btn {
     position: relative !important;
-    top: -4px !important;
+    top: -20px !important;
 }
 
 /* Back arrow - thoda left */
 .back-btn {
     position: relative !important;
-    left: -8px !important;
+    left: -20px !important;
 }
