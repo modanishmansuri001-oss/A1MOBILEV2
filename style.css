@@ -2745,12 +2745,12 @@ z-index:10;
     }
 
     .register-header{
-        height:35px;
+        height:40px;
         padding:0 12px;
     }
 
     .register-logo h1{
-        font-size:12px;
+        font-size:15px;
     }
 
     .register-hero{
@@ -2768,7 +2768,7 @@ z-index:10;
     }
 
     .register-hero p{
-        font-size:5px;
+        font-size:7px;
     }
 }
 /* ===== REGISTER ANNOUNCEMENT BAR SIZE FIX ===== */
