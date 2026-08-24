@@ -2847,10 +2847,10 @@ z-index:10;
 /* REGISTER HEADER ICON POSITION — FINAL */
 .register-header .register-menu {
     position: relative !important;
-    top: -8px !important;
+    top: -5px !important;
 }
 
 .register-header .register-back {
     position: relative !important;
-    left: -8px !important;
+    left: -5px !important;
 }
