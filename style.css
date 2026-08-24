@@ -2842,11 +2842,11 @@ z-index:10;
 #announcementBar,
 .register-announcement{
     width:100% !important;
-    height:20px !important;
-    min-height:20px !important;
-    max-height:20px !important;
+    height:30px !important;
+    min-height:30px !important;
+    max-height:30px !important;
 
-    padding:0 8px !important;
+    padding:0 10px !important;
 
     display:flex !important;
     align-items:center !important;
