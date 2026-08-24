@@ -2834,3 +2834,13 @@ z-index:10;
 .back-btn{
     transform: translateX(-8px);
 }
+/* REGISTER HEADER — FINAL POSITION */
+.register-menu-btn {
+    position: relative !important;
+    top: -8px !important;
+}
+
+.register-back-btn {
+    position: relative !important;
+    left: -8px !important;
+}
