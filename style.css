@@ -2353,3 +2353,26 @@ z-index:10;
    A1 REWARDS — REGISTER PAGE BACKGROUND
    STEP 1 : REGISTER PAGE BACKGROUND DESIGN
    ========================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(
+        180deg,
+        #f5f9ff 0%,
+        #eef6ff 50%,
+        #f8fbff 100%
+    );
+
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
