@@ -384,61 +384,357 @@
 <!-- ============== REGISTER PAGE START ================== -->
 <!-- ===================================================== -->
 
-<section id="registerPage">
+<section id="registerPage" style="
+    min-height:100vh;
+    background:#f4f8ff;
+    padding-bottom:50px;
+    font-family:Arial,sans-serif;
+">
 
-    <!-- Step 1: Top Announcement Bar -->
-    <div class="register-top-bar">
+    <!-- Top Bar -->
+    <div style="
+        background:#2864df;
+        color:white;
+        padding:14px 18px;
+        font-size:17px;
+        font-weight:600;
+        text-align:center;
+    ">
         📢 Join A1 Rewards & Start Earning Exciting Rewards!
     </div>
 
-    <!-- Step 2: Header -->
-    <header class="register-header">
+    <!-- Header -->
+    <header style="
+        background:white;
+        padding:15px 20px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        box-shadow:0 2px 8px rgba(0,0,0,.08);
+    ">
 
-        <button class="register-back-btn">‹</button>
+        <div>
+            <div style="font-size:30px;font-weight:800;">
+                <span style="color:#2864df;">A1</span> REWARDS
+            </div>
 
-        <div class="register-logo">
-            <h1>
-                <span class="blue">A1</span> REWARDS
-            </h1>
-
-            <p>
-                Powered by <span>A1 MOBILE</span>
-            </p>
+            <div style="
+                color:#777;
+                margin-top:4px;
+                font-size:14px;
+            ">
+                Powered by <b style="color:#2864df;">A1 MOBILE</b>
+            </div>
         </div>
 
-        <button class="register-menu-btn">☰</button>
-
+        <button
+            onclick="showHome()"
+            style="
+                border:0;
+                background:none;
+                font-size:30px;
+                cursor:pointer;
+            "
+        >
+            ☰
+        </button>
     </header>
 
-<div class="register-main">
 
-    <!-- REGISTER HERO -->
-    <section class="register-hero">
+    <!-- Register Area -->
+    <div style="
+        max-width:480px;
+        margin:35px auto;
+        padding:0 20px;
+    ">
 
-        <div class="register-decoration register-gift">
-            🎁
+        <!-- Heading -->
+        <div style="text-align:center;margin-bottom:25px;">
+
+            <div style="font-size:45px;margin-bottom:10px;">
+                🎁 🛡️ 💰
+            </div>
+
+            <h1 style="
+                margin:0;
+                font-size:34px;
+                color:#111827;
+            ">
+                Create Your <span style="color:#2864df;">Account</span>
+            </h1>
+
+            <p style="
+                color:#6b7280;
+                font-size:16px;
+                line-height:1.5;
+            ">
+                Join A1 Rewards and start earning exciting rewards
+            </p>
+
         </div>
 
-        <div class="register-shield">
-            🛡️
+
+        <!-- Register Card -->
+        <div style="
+            background:white;
+            padding:25px;
+            border-radius:20px;
+            box-shadow:0 8px 30px rgba(0,0,0,.10);
+        ">
+
+            <form id="registerForm">
+
+                <!-- Name -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Enter your full name"
+                    required
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:18px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Mobile -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Mobile Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="registerMobile"
+                    placeholder="Enter 10 digit mobile number"
+                    maxlength="10"
+                    required
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:18px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Email -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Enter your email"
+                    required
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:18px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Password -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Create a password"
+                    minlength="6"
+                    required
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:18px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Confirm Password -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Confirm Password
+                </label>
+
+                <input
+                    type="password"
+                    id="registerConfirmPassword"
+                    placeholder="Confirm your password"
+                    required
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:18px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Referral -->
+                <label style="
+                    display:block;
+                    margin-bottom:7px;
+                    font-weight:600;
+                    color:#374151;
+                ">
+                    Referral Code
+                    <span style="color:#999;font-weight:400;">
+                        (Optional)
+                    </span>
+                </label>
+
+                <input
+                    type="text"
+                    id="referralCode"
+                    placeholder="Enter referral code"
+                    style="
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:14px;
+                        border:1px solid #d1d5db;
+                        border-radius:10px;
+                        font-size:16px;
+                        margin-bottom:22px;
+                        outline:none;
+                    "
+                >
+
+
+                <!-- Register Button -->
+                <button
+                    type="submit"
+                    style="
+                        width:100%;
+                        padding:15px;
+                        border:0;
+                        border-radius:12px;
+                        background:#2864df;
+                        color:white;
+                        font-size:18px;
+                        font-weight:700;
+                        cursor:pointer;
+                    "
+                >
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <!-- Login -->
+            <div style="
+                text-align:center;
+                margin-top:20px;
+                color:#6b7280;
+            ">
+                Already have an account?
+                <button
+                    type="button"
+                    onclick="showLogin()"
+                    style="
+                        border:0;
+                        background:none;
+                        color:#2864df;
+                        font-weight:700;
+                        font-size:15px;
+                        cursor:pointer;
+                    "
+                >
+                    Login
+                </button>
+            </div>
+
         </div>
 
-        <div class="register-decoration register-wallet">
-            💰
-        </div>
+    </div>
 
-        <h2>
-            Create Your <span>Account</span>
-        </h2>
-
-        <p>
-            Join A1 Rewards and start earning exciting rewards
-        </p>
-
-    </section>
-
-</div>
 </section>
+
+
+<script>
+document.getElementById("registerForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const password =
+        document.getElementById("registerPassword").value;
+
+    const confirmPassword =
+        document.getElementById("registerConfirmPassword").value;
+
+    const mobile =
+        document.getElementById("registerMobile").value;
+
+    if (mobile.length !== 10) {
+        alert("Please enter a valid 10 digit mobile number.");
+        return;
+    }
+
+    if (password !== confirmPassword) {
+        alert("Passwords do not match.");
+        return;
+    }
+
+    alert("Account created successfully!");
+
+});
+</script>
 
 <!-- ===================================================== -->
 <!-- =============== REGISTER PAGE END =================== -->
