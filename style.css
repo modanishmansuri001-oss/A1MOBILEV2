@@ -2429,3 +2429,174 @@ body.home-mode #loginPage,
 body.home-mode #registerPage {
     display: none !important;
 }
+/* =========================================
+   REGISTER PAGE - STEP 1
+   HERO / HEADING
+   ========================================= */
+
+#registerPage {
+    min-height: 100vh;
+    background: #f4f8ff;
+}
+
+.register-main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.register-hero {
+    position: relative;
+    min-height: 310px;
+    padding: 55px 20px 35px;
+    text-align: center;
+    background: linear-gradient(
+        180deg,
+        #f7fbff 0%,
+        #eef6ff 100%
+    );
+    overflow: hidden;
+}
+
+/* Soft background glow */
+.register-hero::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.08);
+    filter: blur(8px);
+}
+
+/* Shield */
+.register-shield {
+    position: relative;
+    z-index: 2;
+
+    width: 105px;
+    height: 105px;
+    margin: 0 auto 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 58px;
+
+    background: #ffffff;
+    border-radius: 28px;
+
+    box-shadow:
+        0 12px 35px rgba(37, 99, 235, 0.16),
+        0 0 0 8px rgba(37, 99, 235, 0.04);
+}
+
+/* Heading */
+.register-hero h2 {
+    position: relative;
+    z-index: 2;
+
+    margin: 0;
+
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+
+    color: #111827;
+}
+
+.register-hero h2 span {
+    color: #2563eb;
+}
+
+/* Subtitle */
+.register-hero p {
+    position: relative;
+    z-index: 2;
+
+    margin: 10px auto 0;
+    max-width: 520px;
+
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #6b7280;
+}
+
+/* Gift + Wallet */
+.register-decoration {
+    position: absolute;
+    z-index: 1;
+
+    width: 72px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 22px;
+
+    background: rgba(255, 255, 255, 0.8);
+
+    box-shadow: 0 8px 25px rgba(30, 64, 175, 0.08);
+
+    font-size: 38px;
+}
+
+.register-gift {
+    left: 8%;
+    top: 75px;
+    transform: rotate(-8deg);
+}
+
+.register-wallet {
+    right: 8%;
+    top: 75px;
+    transform: rotate(8deg);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .register-hero {
+        min-height: 315px;
+        padding-top: 48px;
+    }
+
+    .register-shield {
+        width: 92px;
+        height: 92px;
+        font-size: 50px;
+        border-radius: 25px;
+    }
+
+    .register-hero h2 {
+        font-size: 32px;
+    }
+
+    .register-hero p {
+        font-size: 16px;
+        padding: 0 35px;
+    }
+
+    .register-decoration {
+        width: 58px;
+        height: 58px;
+        font-size: 30px;
+    }
+
+    .register-gift {
+        left: 4%;
+        top: 68px;
+    }
+
+    .register-wallet {
+        right: 4%;
+        top: 68px;
+    }
+}
