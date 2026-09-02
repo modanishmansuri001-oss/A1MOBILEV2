@@ -2565,7 +2565,7 @@ body.home-mode #registerPage {
 
     .register-hero {
         min-height: 315px;
-        padding-top: 48px;
+        padding-top: 15px;
     }
 
     .register-shield {
@@ -2592,12 +2592,12 @@ body.home-mode #registerPage {
 
     .register-gift {
         left: 4%;
-        top: 68px;
+        top: 15px;
     }
 
     .register-wallet {
         right: 4%;
-        top: 68px;
+        top: 15px;
     }
 }
 /* =========================================================
