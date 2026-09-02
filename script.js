@@ -56,11 +56,24 @@ function showLogin() {
 
     if (!homePage || !loginPage) return;
 
+    // Home hide
+    homePage.style.display = "none";
+
+    // Register hide
+    if (registerPage) {
+        registerPage.style.display = "none";
+    }
+
+    // Login show
+    loginPage.style.display = "block";
+
+    // Body modes
     document.body.classList.remove("home-mode");
+    document.body.classList.remove("register-mode");
     document.body.classList.add("login-mode");
 
+    // Page top
     window.scrollTo(0, 0);
-
 }
 
 /* ==========================================
@@ -91,13 +104,25 @@ function showHome() {
 
     if (!homePage || !loginPage) return;
 
+    // Home show
+    homePage.style.display = "block";
+
+    // Login hide
+    loginPage.style.display = "none";
+
+    // Register hide
+    if (registerPage) {
+        registerPage.style.display = "none";
+    }
+
+    // Body modes
     document.body.classList.remove("login-mode");
+    document.body.classList.remove("register-mode");
     document.body.classList.add("home-mode");
 
     window.scrollTo(0, 0);
 
     revealSections();
-
 }
 
 
