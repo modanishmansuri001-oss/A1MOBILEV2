@@ -2378,3 +2378,54 @@ z-index:10;
     visibility: visible !important;
     transform: none !important;
 }
+/* =========================================
+   FINAL PAGE SWITCHING
+   ========================================= */
+
+#homePage {
+    display: block;
+}
+
+#loginPage {
+    display: none;
+}
+
+#registerPage {
+    display: none;
+}
+
+/* LOGIN */
+body.login-mode #homePage {
+    display: none !important;
+}
+
+body.login-mode #loginPage {
+    display: block !important;
+}
+
+body.login-mode #registerPage {
+    display: none !important;
+}
+
+/* REGISTER */
+body.register-mode #homePage {
+    display: none !important;
+}
+
+body.register-mode #loginPage {
+    display: none !important;
+}
+
+body.register-mode #registerPage {
+    display: block !important;
+}
+
+/* HOME */
+body.home-mode #homePage {
+    display: block !important;
+}
+
+body.home-mode #loginPage,
+body.home-mode #registerPage {
+    display: none !important;
+}
