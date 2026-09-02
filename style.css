@@ -2362,3 +2362,19 @@ z-index:10;
 #homePage {
     display: block;
 }
+
+/* =========================================
+   HOME LOGIN / REGISTER BUTTON FIX
+   ========================================= */
+
+#actionSection {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+#loginBtn,
+#registerBtn {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
