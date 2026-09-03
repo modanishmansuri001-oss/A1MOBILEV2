@@ -2466,7 +2466,7 @@ body.home-mode #registerPage {
     width: 230px;
     height: 230px;
     left: 50%;
-    top: 35px;
+    top: -15px;
     transform: translateX(-50%);
     border-radius: 50%;
     background: rgba(37, 99, 235, 0.08);
