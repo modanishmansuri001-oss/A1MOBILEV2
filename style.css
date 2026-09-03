@@ -2474,7 +2474,7 @@ body.home-mode #registerPage {
 /* Shield */
 .register-shield {
     position: relative;
-    z-index: 2;
+    z-index: 101;
 
     width: 105px;
     height: 105px;
