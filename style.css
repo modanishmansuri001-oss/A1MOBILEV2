@@ -2441,12 +2441,12 @@ body.home-mode #registerPage {
 
 .register-main {
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .register-hero {
     position: relative;
-    z-index: 1001;
+    z-index: 101;
     min-height: 310px;
     padding: 55px 20px 35px;
     text-align: center;
@@ -2461,6 +2461,7 @@ body.home-mode #registerPage {
 /* Soft background glow */
 .register-hero::before {
     content: "";
+       z-index: 102;
     position: absolute;
     width: 230px;
     height: 230px;
@@ -2475,7 +2476,7 @@ body.home-mode #registerPage {
 /* Shield */
 .register-shield {
     position: relative;
-    z-index: 101;
+    z-index: 103;
 
     width: 105px;
     height: 105px;
