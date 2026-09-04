@@ -2579,13 +2579,13 @@ margin-top: 0;
 
     .register-hero h2 {
         font-size: 23px;
-       margin-bottom: 6px;
+       margin-bottom: 8px;
     }
 
     .register-hero p {
-        font-size: 13px;
+        font-size: 11px;
         padding: 0 35px;
-       margin-top: 0;
+       margin-top: -10px;
     }
 
     .register-decoration {
