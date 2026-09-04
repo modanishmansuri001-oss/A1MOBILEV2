@@ -3188,3 +3188,20 @@ z-index: 10;
         padding: 10px 16px;
     }
 }
+@media (max-width: 600px) {
+
+    .register-input-group {
+        margin-bottom: 14px;
+    }
+
+    .register-input-group label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .register-input {
+        height: 48px;
+        border-radius: 13px;
+    }
+
+}
