@@ -3205,3 +3205,18 @@ z-index: 10;
     }
 
 }
+@media (max-width: 600px) {
+
+    .register-card {
+        padding-top: 20px;
+    }
+
+    .register-input-group label {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .register-input {
+        height: 56px;
+    }
+}
