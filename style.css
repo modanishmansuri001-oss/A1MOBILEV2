@@ -2961,7 +2961,7 @@ z-index: 10;
     }
 
     .register-input-group {
-        margin-bottom: 18px;
+        margin-bottom: 12px;
     }
 
     .register-input-group label {
@@ -2969,7 +2969,7 @@ z-index: 10;
     }
 
     .register-input {
-        height: 56px;
+        height: 45px;
         border-radius: 15px;
     }
 
