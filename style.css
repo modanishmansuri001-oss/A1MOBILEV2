@@ -2610,13 +2610,17 @@ body.home-mode #registerPage {
 .register-form-section {
     width: 100%;
     padding: 0 20px 30px;
+   overflow: visible;
+position: relative;
+z-index: 5;
     margin-top: -5px;
 }
 
 .register-card {
     width: 100%;
     max-width: 680px;
-   margin-top: -80px;
+   position: relative;
+z-index: 10;
     margin: -120px auto 0;
     padding: 30px 26px;
     background: #ffffff;
