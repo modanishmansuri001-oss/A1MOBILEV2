@@ -2961,21 +2961,21 @@ z-index: 10;
     }
 
     .register-input-group {
-        margin-bottom: 12px;
-    }
+    margin-bottom: 18px;
+}
 
-    .register-input-group label {
-        font-size: 15px;
-    }
+.register-input-group label {
+    font-size: 13px;
+}
 
-    .register-input {
-        height: 30px;
-        border-radius: 13px;
-    }
+.register-input {
+    height: 64px;
+    border-radius: 15px;
+}
 
-    .register-input input {
-        font-size: 14px;
-    }
+.register-input input {
+    font-size: 13px;
+}
 
     .register-benefits {
         padding: 12px 3px;
