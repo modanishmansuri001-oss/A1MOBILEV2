@@ -2578,11 +2578,11 @@ body.home-mode #registerPage {
     }
 
     .register-hero h2 {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .register-hero p {
-        font-size: 16px;
+        font-size: 10px;
         padding: 0 35px;
     }
 
