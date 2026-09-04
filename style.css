@@ -2617,7 +2617,7 @@ body.home-mode #registerPage {
     width: 100%;
     max-width: 680px;
    margin-top: -80px;
-    margin: 0 auto;
+    margin: -120px auto 0;
     padding: 30px 26px;
     background: #ffffff;
     border-radius: 28px;
