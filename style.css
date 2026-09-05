@@ -3212,8 +3212,8 @@ z-index: 10;
     }
 
     .register-input-group label {
-        font-size: 15px;
-        margin-bottom: 6px;
+        font-size: 5px;
+        margin-bottom: 2px;
     }
 
     .register-input {
@@ -3223,8 +3223,8 @@ z-index: 10;
 @media (max-width: 600px) {
 
     .register-input-group label {
-        font-size: 14px;
-        margin-bottom: 5px;
+        font-size: 5px;
+        margin-bottom: 1px;
     }
 
     .register-input {
