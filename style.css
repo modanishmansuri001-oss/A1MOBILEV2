@@ -3191,7 +3191,7 @@ z-index: 10;
 @media (max-width: 600px) {
 
     .register-input-group {
-        margin-bottom: 14px;
+        margin-bottom: 8px;
     }
 
     .register-input-group label {
