@@ -3224,7 +3224,7 @@ z-index: 10;
 
     .register-input-group label {
         font-size: 15px;
-        margin-bottom: -5px;
+        margin-bottom: 15px;
     }
 
     .register-input {
