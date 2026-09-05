@@ -3236,3 +3236,12 @@ z-index: 10;
         height: 36px;
     }
 }
+@media (max-width: 600px) {
+    .register-input-group label {
+        margin-bottom: 2px;
+    }
+
+    .register-input {
+        height: 48px;
+    }
+}
