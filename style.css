@@ -3208,7 +3208,7 @@ z-index: 10;
 @media (max-width: 600px) {
 
     .register-card {
-        padding-top: 20px;
+        padding-top: 5px;
     }
 
     .register-input-group label {
@@ -3228,7 +3228,7 @@ z-index: 10;
     }
 
     .register-input {
-        height: 52px;
+        height: 45px;
     }
 
     .register-input > span {
