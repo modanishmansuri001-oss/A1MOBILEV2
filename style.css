@@ -2721,6 +2721,10 @@ z-index: 10;
     cursor: pointer;
 }
 
+.terms-row > span {
+    font-size: 9px;
+}
+
 .terms-row input {
     width: 19px;
     height: 19px;
