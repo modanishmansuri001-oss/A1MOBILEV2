@@ -2697,8 +2697,8 @@ z-index: 10;
 }
 
 .password-toggle {
-    width: 38px;
-    height: 38px;
+    width: 28px;
+    height: 28px;
     flex: 0 0 38px;
     border: none;
     background: #f4f7fb;
@@ -2706,7 +2706,7 @@ z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 19px;
+    font-size: 12px;
     cursor: pointer;
 }
 
