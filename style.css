@@ -3232,8 +3232,8 @@ z-index: 10;
     }
 
     .register-input > span {
-        width: 25px;
-        height: 25px;
+        width: 29px;
+        height: 29px;
     }
 }
 @media (max-width: 600px) {
